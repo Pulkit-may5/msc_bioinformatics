@@ -1,0 +1,10 @@
+>mtcars
+data <-mtcars
+data
+dim(data)
+names(data)
+str(data)
+summary(data)
+is.na.data.frame(data)
+sum(is.na.data.frame(data))
+range(data$mpg)as.factor(a)
