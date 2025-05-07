@@ -1,0 +1,10 @@
+name = input ("Enter your name: ")
+age = int(input("Enter your age: "))
+print(f"Hello, {name}!")
+
+future_age = age + 10
+print(f"in 10 years, you will be {future_age} years old.")
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
