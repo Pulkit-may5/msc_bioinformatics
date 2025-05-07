@@ -1,4 +1,4 @@
-dnaseq <- "ATCGCGGCGGCTTAGGACCGATTAGA"
+dnaseq <- "ATCGCGGCGGCTTAGGACCGATTAGAXXXX"
 print(paste("this is the sample dna sequence", dnaseq))
 a_count <-sum(strsplit(dnaseq, NULL)[[1]]=="A")
 t_count <-sum(strsplit(dnaseq, NULL)[[1]]=="T")
